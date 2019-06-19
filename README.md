@@ -29,5 +29,5 @@ func dispatchTasks(taskCh chan<- *Task) {
 ```
 
 ```
-go get 
+go get github.com/stringcode86/orderedWorkerPool
 ```
