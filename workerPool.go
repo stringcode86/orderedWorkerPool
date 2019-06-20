@@ -1,6 +1,8 @@
 package orderedWorkerPool
 
-import "sort"
+import (
+	"sort"
+)
 
 // New returns taskCh and results channels. Dispatch tasks on `taskCh` and
 // receive results on `orderedResultCh`.
